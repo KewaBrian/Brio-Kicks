@@ -1,0 +1,95 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    margin: 0%;
+}
+header{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  
+  font-style: normal;
+}
+h1{
+    font-size: 6rem;
+    margin-bottom: 1px;
+    
+}
+
+nav{
+    background-color: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    
+}
+a{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:#f4f4f4;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+
+}
+a:hover {
+    font-size: bold;
+    
+    color: beige;
+    transition: all 0.1s ease-in-out;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+main{
+    width: 500px;
+}
+p{
+    font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main-man{
+    display: flex;
+    margin: 10px;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    
+    
+    background-color: black;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+}
+
+.button:hover {
+    background-color: #f44747;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+

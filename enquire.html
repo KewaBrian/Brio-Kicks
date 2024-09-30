@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brio Kicks</title>
+    <link rel="stylesheet" href="enquire.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,400;0,500;0,700;1,600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="product.html">Collection</a>
+        <a href="enquire.html">Enquire</a>
+        <a href="about.html">About Us</a>
+    </nav>
+    <center>
+        <h2>We would like to hear from you!</h2>
+    </center>
+    <form action="submit_form.php" method="post">
+        <label for="name"> Full Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email address</label>
+        <input type="email" id="email">
+
+        <label for="gender">Gender</label>
+        <div>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender">Female
+
+        </div>
+
+
+        <label for="customization">Any additional information</label>
+        <textarea name="customization" id="customization" rows="4"></textarea>
+
+        <div class="choice-select">
+            <label>Which shoe would you like to see more of</label>
+            <div>
+                <input type="checkbox" name="shoetype">
+                <label for="adidas">Adidas</label>
+
+            </div>
+            <div>
+                <input type="checkbox" name="shoetype">
+                <label for="newbalance">New Balance</label>
+            </div>
+            <div>
+                <input type="checkbox" name="shoetype">
+                <label for="puma">Puma</label>
+            </div>
+            <div>
+                <input type="checkbox" name="shoetype">
+                <label for="jordan">Jordan</label>
+            </div>
+            <div>
+                <input type="checkbox" name="shoetype">
+                <label for="offwhite">Off-White</label>
+            </div>
+
+        </div>
+
+        <label for="quantity">Upload a picture of the shoe you would like to see</label>
+        <label class="custom-file-upload" for="upload">
+            Upload a file
+        </label>
+        <input type="file" id="upload">
+
+
+        <input type="submit" value="Submit Enquiry">
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
